@@ -51,7 +51,7 @@ Use Notepad++ to open \Secured-Transfer-win32-x64\resources\app\data\log.txt
 and set it auto-reload by configuration.
 
 Settings -> Preferences -> MISC. -> Update silently
-[https://i.stack.imgur.com/WTQo1.png]
+![image](https://i.stack.imgur.com/WTQo1.png)
 
 #### Advanced Feature
 1. Secured-Transfer provides key management function which can replace the pair of RSA key. In "Self-Key" row,
