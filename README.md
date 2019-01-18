@@ -9,6 +9,7 @@ The AES key is encrypted by the receiver's RSA public key.
 - If you want to have a backup copy running in a different machine, make sure the backup machine has the same Domain under HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters in windows Registry.
 
 ## Security Spec
+- Transport Layer: FTP over TLS support 
 - AES key size: 256 bit
 - RSA key size: 2048 bit (2048-bit keys are sufficient until 2030)
 - RSA private key are encrypted by specific machineID of the device and stored in local DB.
