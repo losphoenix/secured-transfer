@@ -70,3 +70,4 @@ C:\Users\<UserName>\AppData\Roaming\Secured-Transfer
 If you want to clean everything. Delete this browser cache and installation folder Secured-Transfer-win32-x64/.
 
 
+
