@@ -17,7 +17,7 @@ The AES key is encrypted by the receiver's RSA public key.
 3. Drag and drop the files you want to send to ibc into /2019xxxx/ folder.
 4. App also automatically downloads files into \Secured-Transfer-win32-x64\resources\app\data\Download\
 5. **Backup** \Secured-Transfer-win32-x64\resources\app\data\db.sql
-6. auto upload: Put upload file under \Secured-Transfer-win32-x64\resources\app\data\Upload\2019xxxx\
+6. Auto upload: Put upload file under \Secured-Transfer-win32-x64\resources\app\data\Upload\2019xxxx\
 Note: upload file will be placed in the ftp server folder \2019xxxx\. Avoid duplicate filename by adding timestamp.
 
 #### Advanced Feature
