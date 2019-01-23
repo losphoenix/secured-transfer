@@ -18,29 +18,10 @@ The AES key is encrypted by the receiver's RSA public key.
 
 ## User Manual
 #### Quick Start
-###### For IBC User
-1. Register an account in exavault.com and get the FTP server Info. 
-   - For example: I registered a server named losphoenix.exavault.com with admin user losphoneix
-2. Use admin user to login, create an operation user for App operation and its own folder. 
-   - For example: I created a user named ibcuser and its root folder /ibc
-3. Use admin user to login, create operation users and related folders for all the other companies under /ibc folder.
-   Send the credentials to them via secured channel.
-   - For example: I created a user named company1 and its root folder /ibc/company1. 
-    
-4. Place Secured-Transfer-win32.zip into a disk which has enough space and unzip it.
-5. **Modify \Secured-Transfer-win32-x64\resources\app\data\config\config.json** <br>
-    ```Change "ftp_server_root_folder":"/"  to "ftp_server_root_folder":"/*"```
-6. Launch and app and login by ibc user, keep it running(don't quit it). Wait 2 minutes for first time initialization.
-7. The app automatically generates timestamp folder everyday based on Chicago's time.
-8. Drag and drop the files you want to send to companyX into /companyX/2019xxxx/ folder.
-9. App also automatically downloads files into \Secured-Transfer-win32-x64\resources\app\data\Download\
-10. Backup \Secured-Transfer-win32-x64\resources\app\data\db.sql
-11. Auto upload: Put upload file under \Secured-Transfer-win32-x64\resources\app\data\Upload\{CompanyName}\2019xxxx\. 
-Note: upload file will be placed in the ftp server folder \{CompanyName}\2019xxxx\. Avoid duplicate filename by adding timestamp. 
     
 ###### For Client User of IBC
 1. Place Secured-Transfer-win32.zip into a disk which has enough space and unzip it.
-2. Launch and app and login by companyX user, keep it running(don't quit it). Wait 2 minutes for first time initialization.
+2. Launch the app via Secured-Transfer.exe and login. Keep it running(don't quit it). Wait 2 minutes for first time initialization.
 3. Drag and drop the files you want to send to ibc into /2019xxxx/ folder.
 4. App also automatically downloads files into \Secured-Transfer-win32-x64\resources\app\data\Download\
 5. **Backup** \Secured-Transfer-win32-x64\resources\app\data\db.sql
