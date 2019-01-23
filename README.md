@@ -8,14 +8,6 @@ The AES key is encrypted by the receiver's RSA public key.
 - Make sure local port 8080 is available (This port is for local use only)
 - If you want to have a backup copy running in a different machine, make sure the backup machine has the same Domain under HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters in windows Registry.
 
-## Security Spec
-- Transport Layer: FTP over TLS support 
-- AES key size: 256 bit
-- RSA key size: 2048 bit (2048-bit keys are sufficient until 2030)
-- RSA private key are encrypted by specific machineID of the device and stored in local DB.
-- Create separate accounts for each FTP user which provides additional security isolation.
-
-
 ## User Manual
 #### Quick Start
     
@@ -49,6 +41,13 @@ It needs approximate 10 minutes to take it into effect.
 ###### Browser Cache Location
 C:\Users\<UserName>\AppData\Roaming\Secured-Transfer
 If you want to clean everything. Delete this browser cache and installation folder Secured-Transfer-win32-x64/.
+
+## Security Spec
+- Transport Layer: FTP over TLS support 
+- AES key size: 256 bit
+- RSA key size: 2048 bit (2048-bit keys are sufficient until 2030)
+- RSA private key are encrypted by specific machineID of the device and stored in local DB.
+- Create separate accounts for each FTP user which provides additional security isolation.
 
 
 
