@@ -20,13 +20,6 @@ The AES key is encrypted by the receiver's RSA public key.
 6. auto upload: Put upload file under \Secured-Transfer-win32-x64\resources\app\data\Upload\2019xxxx\
 Note: upload file will be placed in the ftp server folder \2019xxxx\. Avoid duplicate filename by adding timestamp.
 
-###### Check File Transfer Log File
-Use Notepad++ to open \Secured-Transfer-win32-x64\resources\app\data\log.txt
-and set it auto-reload by configuration.
-
-Settings -> Preferences -> MISC. -> Update silently
-![image](https://i.stack.imgur.com/WTQo1.png)
-
 #### Advanced Feature
 1. Backup Copy: If you want to have a backup copy running in a different machine. 
    - After the first time launch, everything works properly, copy the whole folder \Secured-Transfer-win32-x64 into your backup computer. 
@@ -36,6 +29,11 @@ Settings -> Preferences -> MISC. -> Update silently
 click "regenerate" icon will re-generate a new pair of key. And it will automatically send to the other involved parties.
 It needs approximate 10 minutes to take it into effect.
 
+3. Use Notepad++ to open \Secured-Transfer-win32-x64\resources\app\data\log.txt
+and set it auto-reload by configuration.
+
+Settings -> Preferences -> MISC. -> Update silently
+![image](https://i.stack.imgur.com/WTQo1.png)
 
 #### Note
 ###### Browser Cache Location
